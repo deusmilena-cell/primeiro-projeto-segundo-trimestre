@@ -19,10 +19,14 @@
              max-width: 800px;
             margin: 0 auto;
             padding: 16px;
+            display: flex;
           }
 img{
   width: 80px;
   height: 80px;
+}
+.artigo-autor{
+  font-weight: bold;
 }
         </style>
     </head>
@@ -34,9 +38,11 @@ img{
             <main>
                 <img src="imagem1.png" alt="Ícone de tecnologia em tons de rosa neon, exibindo 
                 um smartphone com circuitos integrados, uma nuvem de Wi-Fi, engrenagens e fundo abstrato digital.">
-                <h2>Meu primeiro post</h2>
-                <p>por: Milena dos Santos</p>
-                <p>Boas-vindas ao meu blog! Aqui vou compartilhar dicas e curiosidades sobre programação e tecnologia </p>
+                <div>
+                  <h2>Meu primeiro post</h2>
+                  <p class="artigo-autor">por: Milena dos Santos</p>
+                  <p>Boas-vindas ao meu blog! Aqui vou compartilhar dicas e curiosidades sobre programação e tecnologia </p>
+                </div>
             </main>
 </body>
 </html>
